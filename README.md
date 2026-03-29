@@ -1,20 +1,20 @@
 # Node.js MongoDB App
 
-Esta aplicación Node.js se conecta a una base de datos MongoDB y expone una API REST con los siguientes endpoints:
+This Node.js application connects to a MongoDB database and exposes a REST API with the following endpoints:
 
-- **GET /items**: Consulta todos los registros de la colección.
-- **POST /items**: Agrega un nuevo registro (campos: name, state).
-- **DELETE /items/:id**: Borra un registro por su ID.
+- **GET /items**: Retrieves all records in the collection.
+- **POST /items**: Adds a new record (fields: name, state).
+- **DELETE /items/:id**: Deletes a record by its ID.
 
-## Estructura de la colección
+## Collection Structure
 - **name**: String
 - **state**: String
 
-## Uso
-1. Instala las dependencias: `npm install`
-2. Configura la cadena de conexión de MongoDB en el archivo `.env`.
-3. Inicia el servidor: `npm start`
+## Usage
+1. Install dependencies: `npm install`
+2. Configure the MongoDB connection string in the `.env` file.
+3. Start the server: `npm start`
 
-## Requisitos
+## Requirements
 - Node.js
 - MongoDB

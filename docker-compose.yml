@@ -1,0 +1,29 @@
+version: "3.8"
+services:
+  webapp:
+    build: .
+    container_name: node_app
+    ports:
+      - "3000:3000"
+    depends_on:
+      - mongodb
+    environment:
+      - PORT=3000
+      - MONGODB_URI=mongodb://user:password123@mongodb:27017/mydb?authSource=admin
+    volumes:
+      - .:/usr/src/app
+    command: npm start
+
+  mongodb:
+    image: mongo:latest
+    container_name: mongo_db
+    ports:
+      - "27017:27017"
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=user
+      - MONGO_INITDB_ROOT_PASSWORD=password123
+    volumes:
+      - mongo-data:/data/db
+
+volumes:
+  mongo-data:

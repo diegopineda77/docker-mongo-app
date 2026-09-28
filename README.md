@@ -1,6 +1,6 @@
 <img width="1536" height="1024" alt="project-node-mongo" src="https://github.com/user-attachments/assets/2d7fa6c3-6eb4-440f-bbc0-33e832cda646" />
 
-# App Node.js connection with MongoDB
+# App Node.js connect to a MongoDB
 
 This Node.js application connects to a MongoDB database and exposes a REST API with the following endpoints:
 

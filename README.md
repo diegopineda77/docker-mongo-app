@@ -1,5 +1,6 @@
 <img width="1536" height="1024" alt="project-node-mongo" src="https://github.com/user-attachments/assets/2d7fa6c3-6eb4-440f-bbc0-33e832cda646" />
-# Node.js MongoDB App
+
+# App Node.js connection with MongoDB
 
 This Node.js application connects to a MongoDB database and exposes a REST API with the following endpoints:
 
@@ -16,7 +17,7 @@ This Node.js application connects to a MongoDB database and exposes a REST API w
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
+
 ## Step-by-Step Execution Guide
 This project can be run using either Docker Compose (recommended for quick development and deployment) or by running Node.js and MongoDB individually.
 
